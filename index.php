@@ -3,11 +3,13 @@
 $message = "Hello from PHP on GitHub!";
 $date = date("Y-m-d H:i:s");
 ?>
+<p>Auto Deploy Test ID: <?php echo uniqid(); ?></p>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>PHP GitHub Test</title>
+    <p>Auto Deploy Test ID: <?php echo uniqid(); ?></p>
     <style>
         body {
             font-family: Arial, sans-serif;
